@@ -1,0 +1,32 @@
+.Player {
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Player__name {
+    padding: 0 10px;
+    display: flex;
+    color: white;
+}
+
+.Player__score {
+    padding: 0 10px 0 0;
+    font: bold 14px/22px;
+    color: white;
+}
+
+.Player__button {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: whitesmoke;
+    border: none;
+    color: blue;
+}
+
+.Player__button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    /* border: 1px solid white; */
+}
